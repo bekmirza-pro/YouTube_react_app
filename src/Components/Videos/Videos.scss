@@ -134,12 +134,8 @@
     margin-top: 30px;
 }
 
-.path_bottom {
-    width: 100%;
-    max-width: 280px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.path-bottom {
+    display: none;
 }
 
 @media only screen and (max-width: 1350px) {
@@ -205,5 +201,15 @@
     }
     .food_drink-box {
         display: block;
+    }
+    .path-bottom {
+        display: block;
+    }
+    .path_bottom {
+        width: 100%;
+        max-width: 280px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 }

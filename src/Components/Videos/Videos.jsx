@@ -20,7 +20,7 @@ function Videos() {
       <div className="path_bottom">
         {" "}
         <h2 className="video_heading">The Minions Run the Prison</h2>
-        <img src={Path} alt="path" />
+        <img className="path-bottom" src={Path} alt="path" />
       </div>
       <div className="video-p">
         <span>123k views</span>
