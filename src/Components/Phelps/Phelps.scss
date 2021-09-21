@@ -1,0 +1,234 @@
+.margaret_channel {
+    margin-top: 85px;
+}
+
+.profil {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.user-name {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    color: #19202C;
+    margin: 0;
+}
+
+.channel_data {
+    margin-left: 15px;
+}
+
+.subscribed {
+    margin: 0;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #C2C2C2;
+}
+
+.subscribe_btn {
+    border: none;
+    padding: 10px 20px;
+    margin-left: 20px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FF0000;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.subscribe_btn:hover {
+    box-shadow: 0 0 5px 3px #FF0000;
+    color: #FF0000;
+    background-color: #FFFFFF;
+}
+
+.subscribed_channel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact_list {
+    width: 100%;
+    max-width: 650px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item {
+    width: 100%;
+    max-width: 20px;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.list-item:hover {
+    color: #FF0000;
+    box-shadow: 0 2px 0 0 #FF0000;
+}
+
+.video__heading {
+    width: 100%;
+    max-width: 400px;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 34px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #19202C;
+}
+
+.video_p {
+    width: 100%;
+    max-width: 458px;
+    margin-bottom: 25px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.video_player {
+    margin-top: 60px;
+    display: flex;
+}
+
+.video_box-p {
+    margin-left: 25px;
+}
+
+.video_date {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #C2C2C2;
+}
+
+.contact_link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommended_channel {
+    margin: 0;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #C2C2C2;
+}
+
+.recommended-channel {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.channel_box {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.channel_name {
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    color: #19202C;
+}
+
+.contact-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: none;
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.margaret-heading {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #19202C;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .recommended-channel {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .video_player {
+        display: none;
+    }
+    .contact_list {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .user-name {
+        font-size: 20px;
+    }
+    .profil {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 0;
+    }
+    .subscribed_channel {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .subscribe_btn {
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    .channel_data {
+        margin-left: 10px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    .bg-cover_img {
+        height: 150px;
+    }
+    .margaret {
+        position: absolute;
+        transform: translate(40%, -60%);
+    }
+    .contact-list {
+        width: 100%;
+        max-width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

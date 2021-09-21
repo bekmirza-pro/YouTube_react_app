@@ -1,0 +1,112 @@
+/* mulish-regular - latin */
+
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./Assets/Fonts/mulish-v5-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: url('./Assets/Fonts/mulish-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./Assets/Fonts/mulish-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('./Assets/Fonts/mulish-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('./Assets/Fonts/mulish-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./Assets/Fonts/mulish-v5-latin-regular.svg#Mulish') format('svg');
+    /* Legacy iOS */
+}
+
+
+/* mulish-700 - latin */
+
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./Assets/Fonts/mulish-v5-latin-700.eot');
+    /* IE9 Compat Modes */
+    src: url('./Assets/Fonts/mulish-v5-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./Assets/Fonts/mulish-v5-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('./Assets/Fonts/mulish-v5-latin-700.woff') format('woff'), /* Modern Browsers */
+    url('./Assets/Fonts/mulish-v5-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./Assets/Fonts/mulish-v5-latin-700.svg#Mulish') format('svg');
+    /* Legacy iOS */
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Mulish';
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.site__content {
+    flex-grow: 1;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+.container {
+    padding: 0 20px;
+}
+
+.component_box {
+    display: flex;
+}
+
+.video_page {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 950px) {
+    .video_page {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,38 @@
+.food_box {
+    margin-top: 60px;
+    width: 100%;
+    max-width: 1250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.food_p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #C2C2C2;
+    margin-left: 20px;
+}
+
+.profile-heading {
+    font-size: 26px;
+    line-height: 33px;
+    font-weight: bold;
+    color: #19202C;
+}
+
+@media only screen and (max-width: 505px) {
+    .video_img {
+        width: 100%;
+        max-width: 175px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .component_box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

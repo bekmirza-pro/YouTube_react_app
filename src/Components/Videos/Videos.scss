@@ -1,0 +1,209 @@
+.minions {
+    border: none;
+    margin-top: 90px;
+    border-radius: 14px;
+    width: 130%;
+    max-width: 1050px;
+    height: 50%;
+}
+
+.video_heading {
+    width: 100%;
+    margin: 0;
+    max-width: 650px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    color: #192646;
+}
+
+.food_drink-box {
+    display: none;
+}
+
+.food_subscribed {
+    width: 280px;
+    margin-top: 10px;
+    border-bottom: 1px solid grey;
+    padding: 0 0 14px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.food_k {
+    font-size: 12px;
+    line-height: 15px;
+    color: #C2C2C2;
+}
+
+.drink_box {
+    margin-left: 10px;
+}
+
+.drink_btn {
+    border: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #fff;
+    text-align: center;
+    color: #FF0000;
+}
+
+.food-subscribed {
+    width: 280px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.food_s-heading {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #19202C;
+}
+
+.video-p {
+    width: 130%;
+    max-width: 1050px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid grey;
+}
+
+.like_btn {
+    padding: 10px 20px;
+    margin-right: 35px;
+    border: none;
+    background-color: #EBEBEB;
+    color: #192646;
+    mix-blend-mode: normal;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.food-p {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+
+.food_drink {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    color: #19202C;
+}
+
+.published {
+    font-weight: normal;
+    margin-bottom: 15px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #C2C2C2;
+}
+
+.food-paragraf {
+    width: 100%;
+    max-width: 820px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.link_food {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 48px;
+    color: #C2C2C2;
+}
+
+.food__box {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.path_bottom {
+    width: 100%;
+    max-width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1350px) {
+    .minions {
+        width: 100%;
+        max-width: 1050px;
+    }
+    .video-p {
+        width: 100%;
+        max-width: 1050px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .minions {
+        width: 90%;
+    }
+    .video-p {
+        width: 90%;
+    }
+    .video_heading {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .minions {
+        width: 280px;
+        height: 300px;
+    }
+    .video-p {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 280px;
+        margin: 0;
+    }
+    .like_btn {
+        margin-right: 15px;
+        padding: 8px 15px;
+    }
+    .more-dot {
+        display: none;
+    }
+    .videos_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    // .video_heading {
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    //     margin: 0 auto;
+    // }
+    .food__box {
+        display: none;
+    }
+    .video_heading {
+        font-size: 18px;
+    }
+    .food_drink-box {
+        display: block;
+    }
+}
