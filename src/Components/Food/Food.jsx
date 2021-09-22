@@ -34,7 +34,7 @@ function Food() {
         <div className="right_left_box">
           <img src={Right} alt="Blair" />
           <img src={Left} alt="Blair" />
-        </div>
+        </div>+
       </div>
       <div className="img_box">
         {loading && (
